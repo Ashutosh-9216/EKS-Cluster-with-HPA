@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: mywebd
+  name: mywebd
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mywebd
+  template:
+    metadata:
+      labels:
+        app: mywebd
+    spec:
+      containers:
+      - name: apache-webserver-php
+        image: vimal13/apache-webserver-php
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            cpu: "200m"
+          limits:
+            cpu: "500m"
