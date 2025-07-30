@@ -43,7 +43,8 @@ Apply your deployment:
 ```bash
 kubectl apply -f deployment.yaml
 ```
-https://github.com/Ashutosh-9216/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20191340.png?raw=true
+<img width="1345" height="596" alt="image" src="https://github.com/Ashutosh-9216/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20191340.png?raw=true" />
+
 
 ---
 
