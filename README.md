@@ -139,7 +139,7 @@ while true; do wget -q -O- http://<EXTERNAL-IP>; done
 ```bash
 kubectl get hpa -w
 ```
-<img width="877" height="247" alt="https://github.com/Ashutosh-9216/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20193040.png?raw=true" />
+<img width="639" height="546" alt="image" src="https://github.com/Ashutosh-9216/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20193040.png?raw=true" />
 
 
 ---
