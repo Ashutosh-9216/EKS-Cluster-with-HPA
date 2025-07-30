@@ -43,7 +43,8 @@ Apply your deployment:
 ```bash
 kubectl apply -f deployment.yaml
 ```
-Screenshot 2025-07-30 191340.png
+https://github.com/Ashutosh-9216/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20191340.png?raw=true
+
 ---
 
 ## 🔹 Step 3: Expose Deployment as LoadBalancer
